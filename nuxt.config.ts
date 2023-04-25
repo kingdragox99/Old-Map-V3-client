@@ -146,10 +146,6 @@ export default defineNuxtConfig({
         flag: 'flagpack:fr',
       },
     ],
-    vueI18n: {
-      legacy: false,
-      fallbackLocale: 'en',
-    },
   },
 
   // Config Color Mode https://color-mode.nuxtjs.org/
@@ -177,13 +173,13 @@ export default defineNuxtConfig({
   },
 
   // Config Google Font https://google-fonts.nuxtjs.org
-  // googleFonts: {
-  //   families: {
-  //     Roboto: true,
-  //     Raleway: {
-  //       wght: [100, 400],
-  //       ital: [100],
-  //     },
-  //   },
-  // },
+  googleFonts: {
+    families: {
+      Roboto: true,
+      Raleway: {
+        wght: [100, 400],
+        ital: [100],
+      },
+    },
+  },
 });

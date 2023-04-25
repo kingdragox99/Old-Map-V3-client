@@ -110,46 +110,6 @@ const emits = defineEmits(['close']);
 const handleClose = () => {
   emits('close');
 };
-
-// TODO
-
-const entreprises = ref([
-  {
-    name: 'Permalife S.A.',
-    tva: 'BE0458987765',
-  },
-  {
-    name: 'Agoref SPRL',
-    tva: 'BE0458987765',
-  },
-  {
-    name: 'Permalife S.A.',
-    tva: 'BE0458987765',
-  },
-  {
-    name: 'Permalife S.A.',
-    tva: 'BE0458987765',
-  },
-]);
-
-// TODO
-
-const notifications = [
-  {
-    notification:
-      'Bienvenue! Vous serez notifié losqu’une opération nécéssitera votre participation.',
-    time: 'une minute',
-  },
-  {
-    notification: 'Le test de la notification ',
-    time: 'une heur',
-  },
-  {
-    notification:
-      'Bienvenue! Vous serez notifié losqu’une opération nécéssitera votre participation.',
-    time: 'un jour',
-  },
-];
 </script>
 
 <style lang="scss" scoped></style>
