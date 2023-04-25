@@ -1,14 +1,21 @@
 /* eslint-env node */
-require("@rushstack/eslint-patch/modern-module-resolution");
-
 module.exports = {
   root: true,
+  env: {
+    browser: true,
+    node: true,
+  },
   extends: [
     "plugin:vue/vue3-essential",
+    "prettier",
+    "plugin:prettier/recommended",
     "eslint:recommended",
     "@vue/eslint-config-prettier",
   ],
-  parserOptions: {
-    ecmaVersion: "latest",
+  plugins: ["prettier"],
+  rules: {
+    camelcase: 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "vue/multi-word-component-names": 0,
   },
 };
