@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "Nuxt3tailwindStaging",
+      "script": "yarn build-staging && yarn start-staging",
+      "watch": false,
+      "exec_mode": "fork",
+      "env": {
+        "NODE_ENV": "staging",
+        "ANTELOPEJS_LAUNCH_ENV": "STAGING"
+      }
+    }
+  ]
+}
