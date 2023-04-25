@@ -70,10 +70,9 @@
     "swiper": "^8.4.5",
     "vite-plugin-top-level-await": "^1.2.2",
     "vite-plugin-wasm": "^3.1.1",
-    "vite-svg-loader": "^4.0.0"
-  },
-  "dependencies": {
+    "vite-svg-loader": "^4.0.0",
     "daisyui": "^2.50.0",
     "vue-window-size": "^2.0.0"
-  }
+  },
+  "dependencies": {}
 }
