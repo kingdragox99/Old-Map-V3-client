@@ -1,11 +1,10 @@
-<template>
-  <header></header>
-
-  <RouterView />
+<template lang="pug">
+HeaderLayout
 </template>
 
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
+// eslint-disable-next-line no-unused-vars
+import HeaderLayout from "./views/layout/HeaderLayout.vue";
 </script>
 
 <style scoped></style>
