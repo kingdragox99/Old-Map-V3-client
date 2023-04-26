@@ -89,7 +89,6 @@ import {
   TransitionChild,
   TransitionRoot,
 } from '@headlessui/vue';
-import Logo from '@@/assets/svg/logo-w.svg';
 import Cross from '@/assets/icons/cross.svg';
 import IconSun from '@/assets/icons/sun.svg';
 import IconMoon from '@/assets/icons/moon.svg';

@@ -110,6 +110,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-icon',
     'nuxt-simple-sitemap',
+    'nuxt-swiper',
   ],
 
   // vite config https://v3.nuxtjs.org/api/configuration/nuxt-config#vite
@@ -126,7 +127,7 @@ export default defineNuxtConfig({
 
   // Config I18n https://v8.i18n.nuxtjs.org
   i18n: {
-    strategy: 'prefix_except_default',
+    strategy: 'no_prefix',
     defaultLocale: 'en',
     lazy: true,
     langDir: 'lang',
@@ -146,6 +147,14 @@ export default defineNuxtConfig({
         flag: 'flagpack:fr',
       },
     ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      alwaysRedirect: false,
+      cookieCrossOrigin: false,
+      fallbackLocale: '',
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+    },
   },
 
   // Config Color Mode https://color-mode.nuxtjs.org/

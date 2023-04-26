@@ -1,45 +1,18 @@
 {
   "pages": {
-    "home": {
-      "about": {
-        "title": "About Me.",
-        "desc_1": "Hello, I'm",
-        "desc_2": ", a junior web developer from Belgium. I completed a training course at",
-        "desc_3": "to hone my skills. My expertise lies in front-end development, using",
-        "desc_4": "I have a strong understanding of HTML, CSS and JavaScript. I'm passionate about creating interactive and user-friendly web applications."
-      },
-      "experience": {
-        "title": "Experience",
-        "internship": "Internship",
-        "date_1": "December 2022 - February 2023",
-        "desc_1": "I did a 3 months internship at",
-        "desc_2": ", a web development company. I implemented the front-end integration of the new website of",
-        "desc_2-2": "and worked on all of its features.",
-        "desc_3": "I improved my Nuxt.js, i18n, Vuelidate and Pugjs skills.",
-        "date_2": "May 2022 - December 2022",
-        "desc_4": "I followed the web development training of",
-        "desc_5": ", this training lasts 7 months and its goal is to teach us the basics of web development, with a learning pedagogue called \"Active Methodology\": learn by doing",
-        "desc_6": "I learned to use HTML, CSS, Javascript, Vue.js, Node.js, MongoDB, Tailwind"
-      },
-      "projects": {
-        "title": "Projects",
-        "verdin": "Verdin.be is an accounting company, I did the front-end integration on this project.",
-        "website": "Website",
-        "jh": "Joyce Huberty is an artist, I created the back-end, front-end and design on this project, this site is no longer maintained or updated.",
-        "vbc": "I created a bot discord, which checks if a player of \"Counter-Strike: Global Offensive\" suspected of cheating has received a ban by the anti-cheat, it sends a notification when a player receives one, I created the Bot from A to Z."
-      },
-      "contact": {
-        "title": "Contact",
-        "desc": "If you have a question or a project you can contact me via email or directly on malt.com",
-        "btn_1": "Send me a mission"
-      }
-    },
     "header": {
-      "about": "About",
-      "experience": "Experience",
-      "projects": "Projects",
-      "contact": "Contact"
-    },
-    "footer": { "desc": "Designed & Built by Arthur Lefevre" }
+      "btn": {
+        "vip": "Get VIP",
+        "rankings": "Rankings",
+        "servers": "Servers",
+        "more": "More",
+        "more-list": {
+          "rules": "Rules",
+          "about": "About",
+          "support": "Support",
+          "pro": "Become a PRO"
+        }
+      }
+    }
   }
 }

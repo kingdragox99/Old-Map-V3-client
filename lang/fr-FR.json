@@ -1,45 +1,18 @@
 {
   "pages": {
-    "home": {
-      "about": {
-        "title": "À propos de moi.",
-        "desc_1": "Bonjour, je m'appelle",
-        "desc_2": ", je suis un développeur web junior originaire de Belgique. J'ai suivi une formation chez",
-        "desc_3": "pour affiner mes compétences. J'ai de l'expertise dans le développement front-end, j'utilise",
-        "desc_4": "J'ai une bonne compréhension de HTML, CSS et JavaScript. Je suis passionné par la création d'applications web interactives et user-friendly."
-      },
-      "experience": {
-        "title": "Expérience",
-        "internship": "Stage",
-        "date_1": "Décembre 2022 - février 2023",
-        "desc_1": "J'ai fait un stage de 3 mois à",
-        "desc_2": ", une société de développement web, J'ai réalisé l'intégration  front-end du nouveau site web de",
-        "desc_2-2": "et est travaillé sur toutes ses fonctionnalités.",
-        "desc_3": "J'ai amélioré mes compétences en Nuxt.js, i18n, Vuelidate et Pugjs.",
-        "date_2": "Mai 2022 - Décembre 2022",
-        "desc_4": "J'ai suivi la formation en développement web de",
-        "desc_5": ", cette formation dure 7 mois et son objectif est de nous apprendre les bases du développement web, avec une pédagogie d'apprentissage appelée \"Méthodologie active\" : apprendre en faisant.",
-        "desc_6": "J'ai appris à utiliser  HTML, CSS, Javascript, Vue.js, Node.js, MongoDB, Tailwind"
-      },
-      "projects": {
-        "title": "Projets",
-        "verdin": "Verdin.be est une société de comptabilité, j'ai fait l'intégration front-end sur ce projet..",
-        "website": "Site web",
-        "jh": "Joyce Huberty est une artiste, j'ai créé le back-end, le front-end et le design sur ce projet, ce site n'est plus maintenu ou mis à jour.",
-        "vbc": "J'ai créé un bot discord, qui vérifie si un joueur de \"Counter-Strike : Global Offensive\" soupçonné de tricherie a reçu un ban par l'anti-cheat, il envoie une notification quand un joueur en reçoit un, j'ai créé le Bot de A à Z."
-      },
-      "contact": {
-        "title": "Contact",
-        "desc": "Si vous avez une question ou un projet vous pouvez me contacter par email ou directement sur malt.com",
-        "btn_1": "Envoyez-moi une mission"
-      }
-    },
     "header": {
-      "about": "À propos",
-      "experience": "Expérience",
-      "projects": "Projets",
-      "contact": "Contact"
-    },
-    "footer": { "desc": "Conception & développement par Arthur Lefevre" }
+      "btn": {
+        "vip": "Obtenir le VIP",
+        "rankings": "Classement",
+        "servers": "Serveurs",
+        "more": "Plus",
+        "more-list": {
+          "rules": "Règles",
+          "about": "À propos",
+          "support": "Contacter",
+          "pro": "Devenir PRO"
+        }
+      }
+    }
   }
 }
