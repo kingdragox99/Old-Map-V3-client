@@ -2,7 +2,15 @@
   "pages": {
     "home": {
       "article": {
-        "desc": "We started in 2021 with developing and hosting Retake 128Tick servers. During the last years we've been continuously working on making the servers better. Huge thanks from our side for supporting our service by ordering [VIP]. See you on the server!"
+        "desc": "We started in 2021 with developing and hosting Retake 128Tick servers. During the last years we've been continuously working on making the servers better. Huge thanks from our side for supporting our service by ordering [VIP]. See you on the server!",
+        "vip": {
+          "title": "VIP BENEFITS",
+          "1": "Reserved Slots",
+          "2": "Unlimited Access",
+          "3": "Access to Restricted Weapons",
+          "4": "Voting Rights & Immunity",
+          "5": "And more ..."
+        }
       }
     }
   },

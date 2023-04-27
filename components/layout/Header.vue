@@ -17,6 +17,7 @@ header.px-4.pt-8.pb-8.mb-4.bg-other
 
 <script setup>
 const { t } = useI18n();
+
 // TODO
 const links = [
   { to: '/rules', label: t('layout.header.btn.more-list.rules') },
