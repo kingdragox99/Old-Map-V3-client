@@ -1,5 +1,12 @@
 {
   "pages": {
+    "home": {
+      "article": {
+        "desc": "We started in 2021 with developing and hosting Retake 128Tick servers. During the last years we've been continuously working on making the servers better. Huge thanks from our side for supporting our service by ordering [VIP]. See you on the server!"
+      }
+    }
+  },
+  "layout": {
     "header": {
       "btn": {
         "vip": "Get VIP",

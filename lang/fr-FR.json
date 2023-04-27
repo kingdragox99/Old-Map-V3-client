@@ -1,5 +1,12 @@
 {
   "pages": {
+    "home": {
+      "article": {
+        "desc": "Nous avons commencé en 2021 à développer et à héberger des serveurs Retake 128Tick. Au cours des dernières années, nous avons continuellement travaillé à l'amélioration des serveurs. Un grand merci de notre part pour avoir soutenu notre service en commandant le [VIP]. A bientôt sur le serveur !"
+      }
+    }
+  },
+  "layout": {
     "header": {
       "btn": {
         "vip": "Obtenir le VIP",
