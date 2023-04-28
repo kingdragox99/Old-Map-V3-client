@@ -1,6 +1,6 @@
 <template lang="pug">
 Header
-main.px-8
+main.px-4
   h1 vip
 Footer
 </template>

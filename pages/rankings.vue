@@ -2,7 +2,7 @@
 Header
 main.px-4
   h1.text-2xl.font-bold.text-primary.mb-4.text-center RANKINGS
-  table.flex.flex-col.items-center
+  table.flex.flex-col.items-center.mb-4
     tbody.w-full
       tr.grid.grid-cols-3.mb-2.bg-other.rounded.border-2.border-primary
         th.self-center Rank

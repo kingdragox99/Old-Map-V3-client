@@ -49,8 +49,14 @@ Footer
 <script setup lang="ts">
 const { t } = useI18n();
 
+interface Events {
+  href: string;
+  title: string;
+  img: string;
+}
+
 // TODO NEWS
-const events = [
+const events: Events[] = [
   {
     href: 'http://www.pickuptasoeur.fr',
     title: 'Fake News',
