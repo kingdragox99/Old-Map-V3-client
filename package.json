@@ -69,9 +69,12 @@
     "prettier-plugin-tailwindcss": "^0.2.1",
     "pug": "^3.0.2",
     "sass": "^1.57.1",
+    "steamidconverter": "^1.0.4",
     "vite-plugin-top-level-await": "^1.2.2",
     "vite-plugin-wasm": "^3.1.1",
     "vite-svg-loader": "^4.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@tidyjs/tidy": "^2.5.2"
+  }
 }
